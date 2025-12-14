@@ -1,0 +1,36 @@
+.box{
+  width: 200px;
+  height: 300px;
+  background-color: aqua;
+}
+
+.anxia{
+  background-color: brown;
+}
+
+.inbox{
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+}
+
+.box .inanxia{
+  background-color: blue;
+}
+
+.scroll{
+  width: 100%;
+  height: 200rpx;
+  background-color: #eee;
+  white-space: nowrap;
+}
+.scroll .row{
+  width:220rpx;
+  height:200rpx;
+  background: #f51b1b;
+  margin-right: 10rpx;
+  display: inline-block;
+}
+.scroll .row:last-child{
+  margin-right: 0;
+}
