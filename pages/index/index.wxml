@@ -17,3 +17,11 @@
 <view class="row">7</view>
 <view class="row">8</view>
 </scroll-view>
+
+<view>-------------------------------------------</view>
+<movable-area style="width: 400rpx; height: 400rpx; background: #ccc;">
+  <movable-view direction="all" style="width: 150rpx; height:30rpx; background: green;">
+    <view>demo
+    </view>
+  </movable-view>
+</movable-area>
