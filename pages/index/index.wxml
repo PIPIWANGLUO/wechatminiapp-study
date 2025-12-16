@@ -1,21 +1,21 @@
 <view class="box" hover-class="anxia">
   我是大帅哥
-<view class="inbox" hover-class="inanxia" hover-stop-propagation>
-我是里面的大帅哥
-</view>
+  <view class="inbox" hover-class="inanxia" hover-stop-propagation>
+    我是里面的大帅哥
+  </view>
 </view>
 <view>
---------------------
+  --------------------
 </view>
-<scroll-view class="scroll" 	scroll-x>
-<view class="row">1</view>
-<view class="row">2</view>
-<view class="row">3</view>
-<view class="row">4</view>
-<view class="row">5</view>
-<view class="row">6</view>
-<view class="row">7</view>
-<view class="row">8</view>
+<scroll-view class="scroll" scroll-x>
+  <view class="row">1</view>
+  <view class="row">2</view>
+  <view class="row">3</view>
+  <view class="row">4</view>
+  <view class="row">5</view>
+  <view class="row">6</view>
+  <view class="row">7</view>
+  <view class="row">8</view>
 </scroll-view>
 
 <view>-------------------------------------------</view>
@@ -25,3 +25,15 @@
     </view>
   </movable-view>
 </movable-area>
+<view>=========================================</view>
+<view class="out">
+  <view class="box1">
+  </view>
+  <view class="box2">
+    <root-portal>
+      <view class="mask">
+      </view>
+    </root-portal>
+      
+    </view>
+</view>

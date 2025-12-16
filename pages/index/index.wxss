@@ -34,3 +34,26 @@
 .scroll .row:last-child{
   margin-right: 0;
 }
+.out{
+
+}
+
+.out .box1{
+  position: relative;
+  z-index: 200;
+  width: 300rpx;
+  height: 300rpx;
+  background: #6a00ff;
+}
+
+.out .box2{
+  position: relative;
+  background: #f51b1b;
+  width: 200rpx;
+  height: 200rpx;
+  z-index: 0;
+  left: 100px;
+  top: -100px;
+}
+
+
