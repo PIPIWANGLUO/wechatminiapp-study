@@ -1,2 +1,3 @@
-<!--pages/demo/demo.wxml-->
-<text>pages/demo/demo.wxml</text>
+<image src="../../static/images/photo1.jpg" mode="widthFix" />
+
+<video src="" />
