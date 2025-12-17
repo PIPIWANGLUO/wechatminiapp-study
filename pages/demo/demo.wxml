@@ -1,3 +1,5 @@
 <image src="../../static/images/photo1.jpg" mode="widthFix" />
-
+<navigator url="/pages/index/index">
+  <button>你好</button>
+</navigator>
 <video src="" />

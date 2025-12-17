@@ -1,3 +1,7 @@
+const app= getApp()
+console.log(app.globalData.name);
+
+
 // pages/demo/demo.js
 Page({
 

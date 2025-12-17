@@ -37,3 +37,5 @@
       
     </view>
 </view>
+
+<navigator url="/pages/demo/demo">demos</navigator>
