@@ -1,8 +1,10 @@
 {
   "pages": [
+    "pages/data/data",
     "pages/demo/demo",
     "pages/index/index",
     "pages/logs/logs"
+    
   ],
   "window": {
     "navigationBarTextStyle": "black",
