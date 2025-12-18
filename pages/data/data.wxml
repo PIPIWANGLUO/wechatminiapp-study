@@ -1,3 +1,18 @@
 <view>
 我的名字是 ：{{name}}
 </view>
+
+<view>
+年龄：{{age}}
+</view>
+
+<view>
+{{book}}
+</view>
+
+<view wx:if="{{bool}}">
+{{user.name}} ====== {{user.age}}===={{user.age}}
+</view>
+<view wx:else="">
+{{user.name}} niubi  ====== {{user.age}}===={{user.age}}
+</view>

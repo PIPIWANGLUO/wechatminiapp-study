@@ -4,7 +4,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-   name:"张三"
+   name:"张三",
+   age:18,
+   bool:false,
+   book:["1123","sdasd"],
+   user:{
+    name:"牛马表",
+    age:"2000",
+    gender:"男"
+    
+   }
   },
 
   /**
