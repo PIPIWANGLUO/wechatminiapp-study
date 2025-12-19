@@ -7,13 +7,22 @@ Page({
    name:"张三",
    age:18,
    bool:false,
-   book:["1123","sdasd"],
+   book:["1123","sdasd","灰太狼"],
    user:{
     name:"牛马表",
     age:"2000",
     gender:"男"
-    
-   }
+    },
+
+    shujuji:[
+      {
+        biaoti:"222",
+        tupian:"ewe"
+        time:""
+      },
+    ]
+
+
   },
 
   /**

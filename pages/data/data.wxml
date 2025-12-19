@@ -16,3 +16,7 @@
 <view wx:else="">
 {{user.name}} niubi  ====== {{user.age}}===={{user.age}}
 </view>
+<view>========================================</view>
+<view wx:for="{{book}}"  wx:key="index">
+书名: {{index+1}}=={{item}}
+</view>
