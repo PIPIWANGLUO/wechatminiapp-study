@@ -16,10 +16,23 @@ Page({
 
     shujuji:[
       {
-        biaoti:"222",
-        tupian:"ewe"
-        time:""
+        id:"1",
+        biaoti:"JS时间戳转为时间格式的多功能方法",
+        tupian:"http://qingnian8.oss-cn-qingdao.aliyuncs.com/images/20200611/1591843113.jpg",
+        time:"2023-01-10"
       },
+      {
+        id:"2",
+        biaoti:"WXS根据时间戳计算时间间隔",
+        tupian:"http://qingnian8.oss-cn-qingdao.aliyuncs.com/images/20200611/1591843113.jpg",
+        time:"2023-01-10"
+      },
+      {
+        id:"3",
+        biaoti:"微信小程序wxs时间戳格式化多功能转换方法",
+        tupian:"http://qingnian8.oss-cn-qingdao.aliyuncs.com/images/20200611/1591843113.jpg",
+        time:"2023-01-10"
+      }
     ]
 
 
