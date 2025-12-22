@@ -1,0 +1,13 @@
+<!--pages/shijian/shijian.wxml-->
+<text>pages/shijian/shijian.wxml</text>
+
+<view class="block" bind:tap="dianjichufa"
+data-myname="张三"
+data-age="20">
+  点我
+</view>
+
+<view class="text" bind:tap="diercidianji">
+  姓名：{{name}} -- 年龄{{age}}
+
+</view>
