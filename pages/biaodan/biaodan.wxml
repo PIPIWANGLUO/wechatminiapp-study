@@ -1,0 +1,20 @@
+<view class="title">
+留言板
+</view>
+
+<view class="out">
+  <view class="list">
+    <view class="rpw" wx:for="{{3}}" wx:key="id">
+      <view class="text">{{index+1}}. 标题文字演示</view>
+      <view class="close" bind:tap="chickClose">
+        <icon type="clear" size="26"/>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="count">
+共{{pinglunshuliang}}
+</view>
+
+                    

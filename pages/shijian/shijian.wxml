@@ -1,13 +1,32 @@
 <!--pages/shijian/shijian.wxml-->
 <text>pages/shijian/shijian.wxml</text>
-
 <view class="block" bind:tap="dianjichufa"
 data-myname="张三"
 data-age="20">
   点我
 </view>
-
 <view class="text" bind:tap="diercidianji">
   姓名：{{name}} -- 年龄{{age}}
+</view>
+
+<view>=========================</view>
+ 
+
+ <view class="box" bind:tap="clickbox" style="background: {{color}}; width: {{size}}rpx; height: {{size}}rpx; " >
+   随机数：{{num}}
+ </view>
+====================================
+
+<view class="out">
+  <input class="ipt"   type="text" name="" id="" bindinput="onInput"
+  bindfocus="onfocus"/>
+  <button class="" size="mini" type="primary" disabled="{{!title.length}}">确定提交</button>
+
+<view>
+ 输出输入的内容：{{title}}
+</view>
+
 
 </view>
+
+

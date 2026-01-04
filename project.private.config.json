@@ -23,11 +23,18 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/index/index",
-          "pathName": "pages/index/index",
+          "name": "pages/biaodan/biaodan",
+          "pathName": "pages/biaodan/biaodan",
           "query": "",
           "scene": null,
           "launchMode": "default"
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         },
         {
           "name": "pages/demo/demo",

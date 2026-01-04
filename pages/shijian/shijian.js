@@ -6,7 +6,13 @@ Page({
    */
   data: {
     name:"pipi",
-    age:"18"
+    age:"18",
+    num:"0",
+    color:"green",
+    size:"300",
+    title:"",
+    anniuzhuangtai:false,
+    inputchufajiaodian:""
   },
 
   /**
@@ -15,6 +21,54 @@ Page({
   onLoad(options) {
 
   },
+
+  //触发焦点
+  onfocus(e){
+    console.log(e);
+  },
+
+
+
+  //输入框输入的事件
+  onInput(e){
+    console.log(e);
+    let value = e.detail.value
+    this.setData({
+      title:value
+    })
+  },
+
+
+
+
+
+//点击颜色块取随机数 
+   
+clickbox(){
+  //随机数取值
+  let rdm = parseInt(Math.random()*100)
+  // RGB颜色取值
+  let r1 = parseInt(Math.random()*255)
+  let r2 = parseInt(Math.random()*255)
+  let r3 = parseInt(Math.random()*255)
+  let color = `rgb(${r1},${r2},${r3})`
+  //色块大小调整
+  let size = parseInt(Math.random()*300)
+  size = size<100 ? 100 :size
+
+
+  console.log(size);
+  this.setData({
+    num : rdm,
+    color:color,
+    size:size,
+  })
+},
+
+
+
+
+
 
   dianjichufa(event){
     

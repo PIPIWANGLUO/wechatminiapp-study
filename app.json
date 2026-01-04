@@ -4,7 +4,8 @@
     "pages/data/data",
     "pages/demo/demo",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/biaodan/biaodan"
     
   ],
   "window": {
